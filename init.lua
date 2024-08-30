@@ -521,7 +521,7 @@ require('lazy').setup({
       local servers = {
         clangd = {},
         gopls = {},
-        pylsp = {},
+        jedi_language_server = {},
         rust_analyzer = {},
         julials = {
           cmd = {
